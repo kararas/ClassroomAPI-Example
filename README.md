@@ -1,6 +1,6 @@
 # Classroom API サンプルコード
 
-このサンプルでは、Classroom APIを利用したClassroomの各種操作方法についてのコードを記載しています。
+このサンプルでは、Google Classroomでのクラスの作成、編集についてのGoogle Apps Scriptのコードを記載しています。
 
 ## ファイル構成
 ```
@@ -10,3 +10,11 @@
 │
 └ classroomapi_sample.gs .. サンプルコード
 ```
+
+## API に関するドキュメント
+
+・Google Classroom API courses<br/>
+ https://developers.google.com/classroom/reference/rest/v1/courses 
+
+・Google Classroom API courses.courseWork<br/>
+ https://developers.google.com/classroom/reference/rest/v1/courses.courseWork
