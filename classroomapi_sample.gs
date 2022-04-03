@@ -1,3 +1,18 @@
+/**
+ * Note that our recommendations, report, and code samples being shared
+ * (“Samples”) are not Google products,and Google will not support such Samples.
+ * Samples are offered on as-is basis, and designed only to provide you with
+ * certain examples of how such code samples could be utilized. Google does not
+ * provide any representation and warranty in relation to Samples.
+ *
+ * By implementing any of Samples, you agree to solely assume all responsibility
+ * for any consequences that arise from such implementation.
+ *
+ * It is your responsibility to check that the form and content of your property
+ * meet all applicable technical, security, legal, and any other compliance
+ * requirements.
+ */
+
 
 /**
 * コース一覧の取得
@@ -55,12 +70,9 @@ function getCourseList() {
           range = sheet.getRange(3+courseIndex, 1, 1, line.length);
           range.setValues([line]);
         }
-
       }
-
     }
   }
-
 }
 
 
